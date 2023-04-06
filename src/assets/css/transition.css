@@ -1,0 +1,14 @@
+/* 淡入淡出过渡 */
+.fade-enter-active, .fade-leave-active {
+  transition: all .5s;
+}
+
+.fade-enter {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+
+.fade-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}
